@@ -1,7 +1,7 @@
 # largeXMLSplitter
 This tool breaks a large xml using streaming API for XML (StAX Parsers)
 
-A lerge xmls in GBs can be split into smaller and smaller chunks using low memory footprint
+A large xmls in GBs can be split into smaller and smaller chunks using low memory footprint
 
 
 # Input Criteria
@@ -20,4 +20,11 @@ This can be used across the board in following sectors:
 2. Processing of large settlement Files for card industry
 3. Data digestion of logistics and shipping data
 4. mission critical satellite data for weather forcasting and meteorological purposes.
+
+
+# Testing
+
+I have tested this with XMLs of size 2GB with nearly 3m nodes to split. The program took least amount of memory. 
+Timing is not a constraint here as suhc processes run during overnight batches. However this can used be used in near real time
+processing of critical time series data
 
